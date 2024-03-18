@@ -76,7 +76,7 @@ try {
 <body class="hold-transition login-page dark-mode">
 <div class="login-box">
   <div class="login-logo mb-4">
-    <img src="dist/img/logo.jpg" class="img-thumbnail p-0 border rounded-circle" id="system-logo">
+    <img src="dist/img/logo1.jpg" class="img-thumbnail p-0 border rounded-circle" id="system-logo">
     <div class="text-center h2 mb-0">Physical Management System - PHP</div>
   </div>
   <!-- /.login-logo -->
