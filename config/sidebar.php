@@ -7,7 +7,7 @@ if(!(isset($_SESSION['user_id']))) {
 <aside class="main-sidebar sidebar-dark-primary bg-black elevation-4">
     <a href="./" class="brand-link logo-switch bg-black">
       <h4 class="brand-image-xl logo-xs mb-0 text-center"><b>PMS</b></h4>
-      <h4 class="brand-image-xl logo-xl mb-0 text-center">Physical<b>MS</b></h4>
+      <h4 class="brand-image-xl logo-xl mb-0 text-center">P<b>MS</b></h4>
     </a>
 
     <!-- Sidebar -->
@@ -80,7 +80,7 @@ if(!(isset($_SESSION['user_id']))) {
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-pills"></i>
               <p>
-                Medicines
+                Events
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>

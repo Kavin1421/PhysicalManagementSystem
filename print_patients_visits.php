@@ -3,7 +3,7 @@
 include("./pdflib/logics-builder-pdf.php");
 include './config/connection.php';
 
-$reportTitle = "Patients Visits";
+$reportTitle = "Sports Details";
 $from = $_GET['from'];
 $to = $_GET['to'];
 
@@ -53,5 +53,5 @@ while($r = $stmt->fetch(PDO::FETCH_ASSOC)) {
 	$pdf->AddRow($data);
 
 }
-$pdf->Output('print_patient_visits.pdf', 'I');
+$pdf->Output('SportsDetails.pdf', 'I');
 ?>
